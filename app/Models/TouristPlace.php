@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class TouristPlace extends Model
+{
+    protected $fillable = [
+        'name',
+        'district',
+        'description',
+        'image'
+    ];
+}

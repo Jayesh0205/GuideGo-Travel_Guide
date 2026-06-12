@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jalgaon — Golden City of Maharashtra</title>
+  <title>Sindhudurg - Paradise of Konkan</title>
 
   {{-- Bootstrap 5 --}}
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
@@ -387,7 +387,7 @@
 
 {{-- ══════════ NAVBAR ══════════ --}}
 <nav class="jg-nav">
-  <a href="#" class="jg-brand">Jalgaon<em>.</em></a>
+  <a href="#" class="jg-brand">Sindhudurg<em>.</em></a>
   <div class="jg-nav-links">
     <a href="#about"><i class="bi bi-info-circle me-1"></i>About</a>
     <a href="#hotels"><i class="bi bi-building me-1"></i>Hotels</a>
@@ -398,16 +398,16 @@
 
 {{-- ══════════ HERO ══════════ --}}
 <div class="jg-hero">
-  {{-- Replace with your actual asset path, e.g. asset('images/jalgaon-hero.jpg') --}}
-  <img src="{{ asset('img/jalgaon.png') }}"
-       alt="Jalgaon aerial night view"
+  {{-- Replace with your actual asset path, e.g. asset('images/Sindhudurg-hero.jpg') --}}
+  <img src="{{ asset('sindhudurg/city.png') }}"
+           alt="Sindhudurg"
        class="jg-hero__img"
        onerror="this.style.display='none'"/>
   <div class="jg-hero__overlay"></div>
   <div class="jg-hero__content">
     <span class="jg-hero__badge"><i class="bi bi-geo-alt-fill"></i> Maharashtra, India</span>
-    <h1 class="jg-hero__title">Jalgaon</h1>
-    <p class="jg-hero__sub">The Golden City of Maharashtra</p>
+    <h1 class="jg-hero__title">Sindhudurg</h1>
+    <p class="jg-hero__sub">Paradise of Konkan</p>
   </div>
 </div>
 
@@ -421,13 +421,13 @@
 
     {{-- Left: City Preview Card --}}
     <div class="jg-city-card">
-      <img src="{{ asset('images/jalgaon.png') }}"
-           alt="Jalgaon"
+      <img src="{{ asset('sindhudurg/city.png') }}"
+           alt="Sindhudurg"
            class="jg-city-card__img"
            onerror="this.outerHTML='<div class=\'jg-city-card__img-ph\'>🏙️</div>'"/>
       <div class="jg-city-card__body">
-        <div class="jg-city-card__name">Jalgaon</div>
-        <div class="jg-city-card__desc">Ajanta Caves nearby, banana farms and historical monuments.</div>
+        <div class="jg-city-card__name">Sindhudurg</div>
+        <div class="jg-city-card__desc">Historic sea forts, beautiful beaches and authentic Konkani culture.</div>
       </div>
       <div class="jg-city-card__footer">
         <div class="jg-city-card__dot"></div>
@@ -437,14 +437,14 @@
 
     {{-- Right: Content --}}
     <div class="jg-content">
-      <h2 class="jg-heading">About Jalgaon</h2>
+      <h2 class="jg-heading">About Sindhudurg</h2>
 
       <div class="jg-about-box">
-        Jalgaon is a city of golden heritage nestled in the heart of Maharashtra. Known as the
-        <strong>Banana Capital of India</strong>, it enchants visitors with the magnificent
-        Ajanta Caves — a UNESCO World Heritage Site — along with lush banana plantations,
-        serene Giran river banks, and vibrant bazaars steeped in centuries of history.
-        A place where ancient rock-cut art meets modern agricultural pride.
+      <strong> Sindhudurg</strong> is a picturesque coastal district in Maharashtra known for its pristine beaches,
+        historic sea forts, lush greenery, and rich Konkani culture.
+         Famous for Sindhudurg Fort built by Chhatrapati Shivaji Maharaj,
+         the district attracts visitors with its crystal-clear waters,
+        water sports, temples, and delicious seafood cuisine.
       </div>
 
       {{-- Top Attractions --}}
@@ -454,47 +454,47 @@
           <div class="jg-hstrip" id="strip-attract">
 
             <div class="jg-attract">
-              <img src="{{ asset('images/ajanta.png') }}" alt="Ajanta Caves" class="jg-attract__img"
+              <img src="{{ asset('sindhudurg/sindhudurg fort.png') }}" alt="Ratandurg Fort" class="jg-attract__img"
                    onerror="this.outerHTML='<div class=\'jg-attract__img-ph\'>🏛️</div>'"/>
               <div class="jg-attract__body">
-                <span class="jg-attract__tag">UNESCO Heritage</span>
-                <div class="jg-attract__name">Ajanta Caves</div>
+                <span class="jg-attract__tag">Historical</span>
+                <div class="jg-attract__name">Sindhudurg Fort</div>
               </div>
             </div>
 
             <div class="jg-attract">
-              <img src="{{ asset('images/giran.png') }}" alt="Giran River" class="jg-attract__img"
+              <img src="{{ asset('sindhudurg/tarkarli beach.png') }}" alt="Ganpatipule beach" class="jg-attract__img"
                    onerror="this.outerHTML='<div class=\'jg-attract__img-ph\'>🌊</div>'"/>
               <div class="jg-attract__body">
-                <span class="jg-attract__tag">Nature</span>
-                <div class="jg-attract__name">Giran River</div>
+                <span class="jg-attract__tag">Beach</span>
+                <div class="jg-attract__name">Tarkarli beach</div>
               </div>
             </div>
 
             <div class="jg-attract">
-              <img src="{{ asset('images/muktai.png') }}" alt="Muktainagar Temple" class="jg-attract__img"
+              <img src="{{ asset('sindhudurg/amboli waterfall.png') }}" alt="Thibaw palace" class="jg-attract__img"
                    onerror="this.outerHTML='<div class=\'jg-attract__img-ph\'>🛕</div>'"/>
               <div class="jg-attract__body">
-                <span class="jg-attract__tag">Spiritual</span>
-                <div class="jg-attract__name">Muktainagar Temple</div>
+                <span class="jg-attract__tag">Nature</span>
+                <div class="jg-attract__name">Amboli Waterfall</div>
               </div>
             </div>
 
             <div class="jg-attract">
-              <img src="{{ asset('images/mehrun.png') }}" alt="Mehrun Lake" class="jg-attract__img"
+              <img src="{{ asset('sindhudurg/vijaydurg fort.png') }}" alt="Jaigadh fort" class="jg-attract__img"
                    onerror="this.outerHTML='<div class=\'jg-attract__img-ph\'>🏞️</div>'"/>
               <div class="jg-attract__body">
-                <span class="jg-attract__tag">Scenic</span>
-                <div class="jg-attract__name">Mehrun Lake</div>
+                <span class="jg-attract__tag">Fort</span>
+                <div class="jg-attract__name">Vijaydurg Fort</div>
               </div>
             </div>
 
             <div class="jg-attract">
-              <img src="{{ asset('images/manudevi.png') }}" alt="Manudevi Temple" class="jg-attract__img"
+              <img src="{{ asset('sindhudurg/rameshwar temple.png') }}" alt="Gapatipule Temple" class="jg-attract__img"
                    onerror="this.outerHTML='<div class=\'jg-attract__img-ph\'>🍌</div>'"/>
               <div class="jg-attract__body">
-                <span class="jg-attract__tag">Devotional</span>
-                <div class="jg-attract__name">Manudevi Temple</div>
+                <span class="jg-attract__tag">Spiritual</span>
+                <div class="jg-attract__name">Rameshwar Temple</div>
               </div>
             </div>
 
@@ -515,13 +515,13 @@
 
     {{-- Left: City Preview Card --}}
     <div class="jg-city-card">
-      <img src="{{ asset('images/jalgaon.png') }}"
-           alt="Jalgaon"
+      <img src="{{ asset('sindhudurg/city.png') }}"
+           alt="Sindhudurg"
            class="jg-city-card__img"
            onerror="this.outerHTML='<div class=\'jg-city-card__img-ph\'>🏙️</div>'"/>
       <div class="jg-city-card__body">
-        <div class="jg-city-card__name">Jalgaon</div>
-        <div class="jg-city-card__desc">Ajanta Caves nearby, banana farms and historical monuments.</div>
+        <div class="jg-city-card__name">Sindhudurg</div>
+        <div class="jg-city-card__desc">Historic sea forts, beautiful beaches and authentic Konkani culture.</div>
       </div>
       <div class="jg-city-card__footer">
         <div class="jg-city-card__dot"></div>
@@ -537,10 +537,10 @@
         <div class="jg-hotel-grid">
 
           <div class="jg-hotel">
-            <img src="{{ asset('images/hotel1.png') }}" alt="Hotel Plaza" class="jg-hotel__img"
+            <img src="{{ asset('sindhudurg/hotel1.png') }}" alt="Golve resort" class="jg-hotel__img"
                  onerror="this.outerHTML='<div class=\'jg-hotel__img-ph\'>🏨</div>'"/>
             <div class="jg-hotel__body">
-              <div class="jg-hotel__name">Hotel Plaza</div>
+              <div class="jg-hotel__name">Golve resort</div>
               <div class="jg-hotel__meta">
                 <span class="jg-hotel__stars">★★★★★</span>
                 <span class="jg-hotel__price">₹3,200/night</span>
@@ -549,22 +549,22 @@
           </div>
 
           <div class="jg-hotel">
-            <img src="{{ asset('images/hotel2.png') }}" alt="Banana Resort" class="jg-hotel__img"
+            <img src="{{ asset('sindhudurg/hotel2.png') }}" alt="Hotel Chavala Beach " class="jg-hotel__img"
                  onerror="this.outerHTML='<div class=\'jg-hotel__img-ph\'>🏨</div>'"/>
             <div class="jg-hotel__body">
-              <div class="jg-hotel__name">Banana Resort</div>
+              <div class="jg-hotel__name">Hotel Chavala Beach </div>
               <div class="jg-hotel__meta">
                 <span class="jg-hotel__stars">★★★★</span>
-                <span class="jg-hotel__price">₹2,100/night</span>
+                <span class="jg-hotel__price">₹,910/night</span>
               </div>
             </div>
           </div>
 
           <div class="jg-hotel">
-            <img src="{{ asset('images/hotel3.png') }}" alt="Ajanta Heritage Inn" class="jg-hotel__img"
+            <img src="{{ asset('sindhudurg/hotel3.png') }}" alt="Hotel Rasary House" class="jg-hotel__img"
                  onerror="this.outerHTML='<div class=\'jg-hotel__img-ph\'>🏨</div>'"/>
             <div class="jg-hotel__body">
-              <div class="jg-hotel__name">Ajanta Heritage Inn</div>
+              <div class="jg-hotel__name">Hotel Rasary House </div>
               <div class="jg-hotel__meta">
                 <span class="jg-hotel__stars">★★★★</span>
                 <span class="jg-hotel__price">₹1,800/night</span>
@@ -573,10 +573,10 @@
           </div>
 
           <div class="jg-hotel">
-            <img src="{{ asset('images/hotel4.png') }}" alt="Golden Stay" class="jg-hotel__img"
+            <img src="{{ asset('sindhudurg/hotel4.png') }}" alt="Sagar Sangam Hotel" class="jg-hotel__img"
                  onerror="this.outerHTML='<div class=\'jg-hotel__img-ph\'>🏨</div>'"/>
             <div class="jg-hotel__body">
-              <div class="jg-hotel__name">Golden Stay</div>
+              <div class="jg-hotel__name">Sagar Sangam Hotel</div>
               <div class="jg-hotel__meta">
                 <span class="jg-hotel__stars">★★★</span>
                 <span class="jg-hotel__price">₹1,200/night</span>
@@ -585,10 +585,10 @@
           </div>
 
           <div class="jg-hotel">
-            <img src="{{ asset('images/hotel5.png') }}" alt="City Comforts" class="jg-hotel__img"
+            <img src="{{ asset('sindhudurg/hotel5.png') }}" alt="Blue Sea  Beach Resort" class="jg-hotel__img"
                  onerror="this.outerHTML='<div class=\'jg-hotel__img-ph\'>🏨</div>'"/>
             <div class="jg-hotel__body">
-              <div class="jg-hotel__name">City Comforts</div>
+              <div class="jg-hotel__name">Blue Sea Beach Resort</div>
               <div class="jg-hotel__meta">
                 <span class="jg-hotel__stars">★★★</span>
                 <span class="jg-hotel__price">₹900/night</span>
@@ -597,34 +597,34 @@
           </div>
 
           <div class="jg-hotel">
-            <img src="{{ asset('images/hotel6.png') }}" alt="Riverside Lodge" class="jg-hotel__img"
+            <img src="{{ asset('sindhudurg/hotel6.png') }}" alt="Avisa Nila Beach Resort" class="jg-hotel__img"
                  onerror="this.outerHTML='<div class=\'jg-hotel__img-ph\'>🏨</div>'"/>
             <div class="jg-hotel__body">
-              <div class="jg-hotel__name">Riverside Lodge</div>
+              <div class="jg-hotel__name">Avisa Nila Beach Resort</div>
               <div class="jg-hotel__meta">
                 <span class="jg-hotel__stars">★★★★</span>
-                <span class="jg-hotel__price">₹2,400/night</span>
+                <span class="jg-hotel__price">₹2,559/night</span>
               </div>
             </div>
           </div>
 
           <div class="jg-hotel">
-            <img src="{{ asset('images/hotel7.png') }}" alt="Vrandavan Inn" class="jg-hotel__img"
+            <img src="{{ asset('sindhudurg/hotel7.png') }}" alt="Hotel Lemongrass" class="jg-hotel__img"
                  onerror="this.outerHTML='<div class=\'jg-hotel__img-ph\'>🏨</div>'"/>
             <div class="jg-hotel__body">
-              <div class="jg-hotel__name">Vrandavan Inn</div>
+              <div class="jg-hotel__name">Hotel Lemongrass</div>
               <div class="jg-hotel__meta">
                 <span class="jg-hotel__stars">★★★</span>
-                <span class="jg-hotel__price">₹1,100/night</span>
+                <span class="jg-hotel__price">₹2,100/night</span>
               </div>
             </div>
           </div>
 
           <div class="jg-hotel">
-            <img src="{{ asset('images/hotel8.png') }}" alt="Shivam Grand" class="jg-hotel__img"
+            <img src="{{ asset('sindhudurg/hotel8.png') }}" alt="Sai Homestay Hotel" class="jg-hotel__img"
                  onerror="this.outerHTML='<div class=\'jg-hotel__img-ph\'>🏨</div>'"/>
             <div class="jg-hotel__body">
-              <div class="jg-hotel__name">Shivam Grand</div>
+              <div class="jg-hotel__name">Sai Homestay Hotel</div>
               <div class="jg-hotel__meta">
                 <span class="jg-hotel__stars">★★★★★</span>
                 <span class="jg-hotel__price">₹3,800/night</span>
@@ -649,13 +649,13 @@
 
     {{-- Left: City Preview Card --}}
     <div class="jg-city-card">
-      <img src="{{ asset('images/jalgaon.png') }}"
-           alt="Jalgaon"
+     <img src="{{ asset('sindhudurg/city.png') }}"
+           alt="Sindhudurg"
            class="jg-city-card__img"
            onerror="this.outerHTML='<div class=\'jg-city-card__img-ph\'>🏙️</div>'"/>
       <div class="jg-city-card__body">
-        <div class="jg-city-card__name">Jalgaon</div>
-        <div class="jg-city-card__desc">Ajanta Caves nearby, banana farms and historical monuments.</div>
+        <div class="jg-city-card__name">Sindhudurg</div>
+        <div class="jg-city-card__desc">Historic sea forts, beautiful beaches and authentic Konkani culture.</div>
       </div>
       <div class="jg-city-card__footer">
         <div class="jg-city-card__dot"></div>
@@ -672,56 +672,56 @@
         <div class="jg-hstrip" id="strip-food">
 
           <div class="jg-food">
-            <img src="{{ asset('images/food-puranpoli.png') }}" alt="Puran Poli" class="jg-food__img"
+            <img src="{{ asset('sindhudurg/prawnsfry.png') }}" alt="Prawans Fry" class="jg-food__img"
                  onerror="this.outerHTML='<div class=\'jg-food__img-ph\'>🫓</div>'"/>
             <div class="jg-food__body">
-              <div class="jg-food__name">Puran Poli</div>
-              <div class="jg-food__desc">Sweet lentil flatbread</div>
+              <div class="jg-food__name">Prawans Fry</div>
+              <div class="jg-food__desc">Fresh prawns fried to perfection with coastal spices</div>
             </div>
           </div>
 
           <div class="jg-food">
-            <img src="{{ asset('images/food-bharlivangi.png') }}" alt="Bharli Vangi" class="jg-food__img"
+            <img src="{{ asset('sindhudurg/fishcury.png') }}" alt="Fish Cury" class="jg-food__img"
                  onerror="this.outerHTML='<div class=\'jg-food__img-ph\'>🍆</div>'"/>
             <div class="jg-food__body">
-              <div class="jg-food__name">Bharli Vangi</div>
-              <div class="jg-food__desc">Stuffed baby brinjal</div>
+              <div class="jg-food__name">Fish cury</div>
+                <div class="jg-food__desc">Traditional Konkan seafood meal with fresh fish curry.</div>
             </div>
           </div>
 
           <div class="jg-food">
-            <img src="{{ asset('images/food-pohe.png') }}" alt="Kande Pohe" class="jg-food__img"
+            <img src="{{ asset('sindhudurg/solkadi.png') }}" alt="sol kadi" class="jg-food__img"
                  onerror="this.outerHTML='<div class=\'jg-food__img-ph\'>🥣</div>'"/>
             <div class="jg-food__body">
-              <div class="jg-food__name">Kande Pohe</div>
-              <div class="jg-food__desc">Spiced flattened rice</div>
+              <div class="jg-food__name">Sol Kadhi</div>
+                <div class="jg-food__desc">Refreshing drink made from kokum and coconut milk.</div>
             </div>
           </div>
 
           <div class="jg-food">
-            <img src="{{ asset('images/varanbatti.png') }}" alt="Varan Batti" class="jg-food__img"
+            <img src="{{ asset('sindhudurg/crabmasala.png') }}" alt="Crab Masala" class="jg-food__img"
                  onerror="this.outerHTML='<div class=\'jg-food__img-ph\'>🍌</div>'"/>
             <div class="jg-food__body">
-              <div class="jg-food__name">Varan Batti</div>
-              <div class="jg-food__desc">Local's Favorite</div>
+              <div class="jg-food__name">Crab Masala</div>
+             <div class="jg-food__desc">Coastal style crab cooked with Malavani spices.</div>
             </div>
           </div>
 
           <div class="jg-food">
-            <img src="{{ asset('images/food-misal.png') }}" alt="Misal Pav" class="jg-food__img"
+            <img src="{{ asset('sindhudurg/kajumasala.png') }}" alt="Kaju Masala" class="jg-food__img"
                  onerror="this.outerHTML='<div class=\'jg-food__img-ph\'>🌶️</div>'"/>
             <div class="jg-food__body">
-              <div class="jg-food__name">Misal Pav</div>
-              <div class="jg-food__desc">Spicy sprout curry</div>
+             <div class="jg-food__name">Kaju Masala</div>
+            <div class="jg-food__desc">Cashew nuts cooked in rich, creamy and flavourful gravy.</div>
             </div>
           </div>
 
           <div class="jg-food">
-            <img src="{{ asset('images/food-shev.png') }}" alt="Shev Bhaji" class="jg-food__img"
+            <img src="{{ asset('sindhudurg/ghavane.png') }}" alt="Gavane" class="jg-food__img"
                  onerror="this.outerHTML='<div class=\'jg-food__img-ph\'>🍜</div>'"/>
             <div class="jg-food__body">
-              <div class="jg-food__name">Shev Bhaji</div>
-              <div class="jg-food__desc">Crispy noodle curry</div>
+             <div class="jg-food__name">Ghavne</div>
+            <div class="jg-food__desc">Soft rice pancakes, a popular Konkan breakfast dish.</div>
             </div>
           </div>
 
@@ -736,14 +736,14 @@
         <h3 class="jg-heading jg-heading--sm mb-2">Map</h3>
         <div class="jg-map-frame">
           <iframe
-            src="https://maps.google.com/maps?q=Jalgaon,Maharashtra,India&output=embed"
+            src="https://maps.google.com/maps?q=Sindhudurg,Maharashtra,India&output=embed"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            title="Jalgaon on Google Maps">
+            title="Ratanagiri on Google Maps">
           </iframe>
         </div>
-        <a href="https://www.google.com/maps/place/Jalgaon,+Maharashtra"
+        <a href="https://www.google.com/maps/place/Sindhudurg,+Maharashtra"
            target="_blank"
            rel="noopener noreferrer"
            class="jg-map-btn">
@@ -759,7 +759,7 @@
 
 {{-- ══════════ FOOTER ══════════ --}}
 <footer class="jg-footer">
-  Crafted with care for <strong>Jalgaon</strong> — The Golden City of Maharashtra.
+  Crafted with care for <strong>Ratanagiri</strong> — The Queen of Konkan.
 </footer>
 
 {{-- Bootstrap JS --}}
